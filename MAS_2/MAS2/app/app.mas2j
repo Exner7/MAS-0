@@ -1,0 +1,21 @@
+/*
+    app
+    ---------------------------
+
+    Jason Application File
+
+    This file defines the initial state of the MAS
+
+    Jason 3.2.0
+    February 26, 2024 - 03:56:08
+*/
+
+MAS app {
+
+    infrastructure: Centralised
+    environment: Env(10)
+
+    agents: hedge #2;
+    aslSourcePath: "src/agt";
+
+}
